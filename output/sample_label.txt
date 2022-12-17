@@ -1,0 +1,6 @@
+Type: Chest-X-Ray
+Model: chest_xray_v023
+Pathology_Check: Tumorous
+Pathology_boolean: True
+Degree_Certainty: 0.89
+Radiologist_boolean: None
