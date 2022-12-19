@@ -38,6 +38,8 @@ dataset methods() ; init->use ds_helper , len->return number of images, get->tak
 based on abhi example;
 to use dataloader need to properly return a img and label after being given all imgs and corresponding labels
 
-
+updates to kaggle dataset:
+DCM/DCM/Tumor/P12/S1/MR-BRAIN-AXIAL
+has an extra directroy prior to the .dcms , mv all out and then remove that misc dir
 
 
