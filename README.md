@@ -4,23 +4,28 @@ input directory is not uploaded due to bloat.
 
 1. 
 unzip the zip file in the following directory
+```
 prev_input/img_dataset/
+```
 
-2. 
-remove zip file and "dataset" folder. you only need
+2. remove zip file and "dataset" folder. you only need 
+```
 prev_input/img_dataset/yes
 prev_input/img_dataset/no
+```
 
-3. 
-To generate a model and the augmented images dataset
-run prev/training.py 
+3. To generate a model and the augmented images dataset run 
+```
+prev/training.py
+```
 
 4. set your MODEL variable in config.py to match the one you want OR just unzip the zipped model file I left for you in the prev_input/model and the script will use that
 
-5. 
-To generate a prediction based on a given patient folder (e.g. S7)
-run prev/glioma.py AFTER updating the input_path to point at the patient you want
-(i will make a way to do this from the terminal as a flag later on)
+5. To generate a prediction based on a given patient folder (e.g. S7) run 
+```
+prev/glioma.py
+``` 
+AFTER updating the input_path to point at the patient you want (i will make a way to do this from the terminal as a flag later on)
 
 * note that to make new models you should go into the training.py and adjust the name (i can automate this later if needed)
 * note the preprocessing was super intensive so I have made it the bare minimum for now as a proof of concept (model still trains to 70% accuracy or so)
