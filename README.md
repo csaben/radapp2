@@ -2,8 +2,7 @@ input directory is not uploaded due to bloat.
 
 # For Yonathan
 
-1. 
-unzip the zip file in the following directory
+1. unzip the zip file in the following directory
 ```
 prev_input/img_dataset/
 ```
