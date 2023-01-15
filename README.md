@@ -41,7 +41,7 @@ and also include more patient data later but this leaves you with proof of conce
 
 this first addition is very much proof of concept and good reference work,
 in the future I'll be starting from scratch for other scan types and datasets.
-this current POC outlines the need for delineating a jpg dataset for trainig initially
+this current POC outlines the need for delineating a jpg dataset for training initially
 and a way to convert new dcm files into that pile and retraining
 
 
